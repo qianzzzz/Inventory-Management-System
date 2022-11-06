@@ -1,0 +1,17 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: zhaoqian
+ * Creation Date: May 10, 2022 at 1:37:52 PM
+ *********************************************/
+T = 3; // horizon
+ N = 2; // shelf-life
+ Q = 20; // Lot-size
+ h = 1;
+ K = 500;
+// d = [37,45,88,41,75,123,72];
+d = [37,45,88];
+// init = [7,4,6,0]; // remaining shelf-life 1,2,3,4
+init = [7,0];
+ c = 4; // unit cost
+ s = 10; // normal selling price
+ elast = 1.0; // price elasticity of demand
